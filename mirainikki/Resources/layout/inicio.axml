@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:weightSum="100">
+    <LinearLayout
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_weight="40">
+        <TextView
+            android:text="Bem Vindo ao MyPlaces!"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:paddingBottom="10dp"
+            android:id="@+id/textView1" />
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/logo" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:background="#0067d6"
+        android:orientation="horizontal"
+        android:layout_weight="20">
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/annotation"
+            android:paddingRight="30dp" />
+        <TextView
+            android:text="Crie notas sobre seus lugares favoritos!"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textColor="#ffffff"
+            android:textSize="15dp"
+            android:id="@+id/textView1" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:background="#d60000"
+        android:layout_weight="20">
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/howto"
+            android:paddingRight="30dp" />
+        <TextView
+            android:text="Descubra como chegar nos locais salvos!"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textColor="#ffffff"
+            android:textSize="15dp"
+            android:id="@+id/textView1" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_weight="20"
+        android:background="#aed600">
+        <Button
+            android:text="Iniciar"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:background="#007043"
+            android:id="@+id/btnEntrar" />
+    </LinearLayout>
+</LinearLayout>

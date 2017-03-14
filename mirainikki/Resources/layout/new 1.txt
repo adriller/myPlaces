@@ -1,0 +1,7 @@
+AIzaSyAz2Ao82qwsO_0KhjlXB31EKlN2ckOJFkg
+
+keytool.exe -list -v -keystore debug.keystore -alias androiddebugkey -storepass android
+
+3D:99:24:2D:7B:D9:52:AA:2B:5A:A0:35:00:73:FC:12:E4:D7:9F:8F
+
+AIzaSyAz2Ao82qwsO_0KhjlXB31EKlN2ckOJFkg

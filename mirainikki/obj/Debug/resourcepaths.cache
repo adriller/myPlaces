@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Paths>
+  <AdditionalAndroidResourcePaths>
+    <AdditionalAndroidResourcePath>C:\Users\adril\AppData\Local\Xamarin\Xamarin.GooglePlayServices.Base\9.6.1\embedded</AdditionalAndroidResourcePath>
+    <AdditionalAndroidResourcePath>C:\Users\adril\AppData\Local\Xamarin\Xamarin.GooglePlayServices.Basement\9.6.1\embedded</AdditionalAndroidResourcePath>
+    <AdditionalAndroidResourcePath>C:\Users\adril\AppData\Local\Xamarin\Xamarin.GooglePlayServices.Location\9.6.1\embedded</AdditionalAndroidResourcePath>
+    <AdditionalAndroidResourcePath>C:\Users\adril\AppData\Local\Xamarin\Xamarin.GooglePlayServices.Maps\9.6.1\embedded</AdditionalAndroidResourcePath>
+    <AdditionalAndroidResourcePath>C:\Users\adril\AppData\Local\Xamarin\Xamarin.GooglePlayServices.Tasks\9.6.1\embedded</AdditionalAndroidResourcePath>
+  </AdditionalAndroidResourcePaths>
+  <AdditionalJavaLibraryReferences>
+    <AdditionalJavaLibraryReference>C:\Users\adril\AppData\Local\Xamarin\Xamarin.GooglePlayServices.Base\9.6.1\embedded\classes.jar</AdditionalJavaLibraryReference>
+    <AdditionalJavaLibraryReference>C:\Users\adril\AppData\Local\Xamarin\Xamarin.GooglePlayServices.Basement\9.6.1\embedded\classes.jar</AdditionalJavaLibraryReference>
+    <AdditionalJavaLibraryReference>C:\Users\adril\AppData\Local\Xamarin\Xamarin.GooglePlayServices.Location\9.6.1\embedded\classes.jar</AdditionalJavaLibraryReference>
+    <AdditionalJavaLibraryReference>C:\Users\adril\AppData\Local\Xamarin\Xamarin.GooglePlayServices.Maps\9.6.1\embedded\classes.jar</AdditionalJavaLibraryReference>
+    <AdditionalJavaLibraryReference>C:\Users\adril\AppData\Local\Xamarin\Xamarin.GooglePlayServices.Tasks\9.6.1\embedded\classes.jar</AdditionalJavaLibraryReference>
+  </AdditionalJavaLibraryReferences>
+  <AdditionalNativeLibraryReferences />
+</Paths>

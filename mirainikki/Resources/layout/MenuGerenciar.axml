@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:weightSum="100"
+    android:background="#000000">
+    <LinearLayout
+        android:layout_height="0dp"
+        android:layout_width="fill_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_weight="40">
+        <EditText
+            android:id="@+id/txtInfo"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text=""
+            android:inputType="textMultiLine"
+            android:minLines="5"
+            android:gravity="center"
+            android:background="#111111" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_weight="15">
+        <Button
+            android:text="Adicionar/Alterar Descrição"
+            android:layout_height="50dp"
+            android:layout_width="match_parent"
+            android:id="@+id/btnDescricao"
+            android:background="#aed600" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_weight="15">
+        <Button
+            android:text="Excluir PIN"
+            android:layout_height="50dp"
+            android:layout_width="match_parent"
+            android:id="@+id/btnExcluir"
+            android:background="#aed600" />
+    </LinearLayout>
+  <LinearLayout
+    android:layout_height="0dp"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_weight="15">
+    <ImageView
+          android:layout_width="50dp"
+          android:layout_height="50dp"
+          android:src="@drawable/logo" />
+  </LinearLayout>
+    <LinearLayout
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_weight="15">
+        <Button
+            android:text="Voltar"
+            android:layout_height="50dp"
+            android:layout_width="match_parent"
+            android:id="@+id/btnVoltar"
+            android:background="#aed600" />
+    </LinearLayout>
+</LinearLayout>
